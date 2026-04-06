@@ -1,0 +1,13 @@
+{
+    "name": "txy/txy-app",
+    "description": "txy电竞俱乐部",
+    "require": {
+        "php": ">=7.4",
+        "topthink/framework": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "server/app/"
+        }
+    }
+}
